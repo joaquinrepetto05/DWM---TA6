@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<body>
+
+    <h2>Encuesta de Preferencias</h2>
+
+    <form action="/submit-formulario" method="post">
+
+        <h3>¿Cuál es tu color favorito?</h3>
+        <select name="color">
+            <option value="rojo">Rojo</option>
+            <option value="verde">Verde</option>
+            <option value="azul">Azul</option>
+            <option value="amarillo">Amarillo</option>
+        </select>
+
+        <h3>¿Qué tipo de música prefieres?</h3>
+        <input type="radio" id="rock" name="musica" value="rock">
+        <label for="rock">Rock</label><br>
+        <input type="radio" id="pop" name="musica" value="pop">
+        <label for="pop">Pop</label><br>
+        <input type="radio" id="electro" name="musica" value="electro">
+        <label for="electro">Electrónica</label><br>
+        <input type="radio" id="clasica" name="musica" value="clasica">
+        <label for="clasica">Clásica</label><br>
+
+        <h3>¿Cuáles son tus hobbies?</h3>
+        <input type="checkbox" id="deporte" name="hobbies" value="deporte">
+        <label for="deporte">Deporte</label><br>
+        <input type="checkbox" id="lectura" name="hobbies" value="lectura">
+        <label for="lectura">Lectura</label><br>
+        <input type="checkbox" id="viajes" name="hobbies" value="viajes">
+        <label for="viajes">Viajes</label><br>
+
+        <br>
+        <input type="submit" value="Enviar">
+    </form>
+
+</body>
+
+</html>
